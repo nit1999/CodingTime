@@ -11,16 +11,16 @@ if($key->resource->id==1){
   ?>
 <div class="col-sm">
 	<div class="cardCss" style="color:#005BB8;background-color: #fff">
-  <img  src="time2code/logos/codeforces logo.png" alt="Avatar" style="height:100px;width:300px;">
+  <img  src="logos/codeforces logo.png" alt="Avatar" style="height:100px;width:300px;">
   <div class="containerCss">
     <p class="h6 text-center" style="border-bottom: 1px solid red;"><strong><?php echo $key->event; ?></strong></p>
     <center><a href=<?php echo $key->href; ?> style="text-align: center;word-wrap:break-word;"><?php echo $key->href ?></a></center>
   <div class="row" style="border-top: 1px solid red;margin-left:12px;margin-right: 12px;">
     <div class="col-sm" >
-    	 <p style="float:left;">Start = <?php echo " ".$start_contest_format; ?></p>
+    	 <p style="float:left;">Start = <?php require 'start_contest_offset.php'; ?></p>
      </div>
     <div class="col-sm">
-     <p style="float:right;">End = <?php echo " ".$end_contest_format; ?></p>
+     <p style="float:right;">End = <?php require 'end_contest_offset.php'; ?></p>
     </div>
 </div>
   <div class="row" style="border-top: 1px solid red;margin-left:12px;margin-right: 12px;">

@@ -11,7 +11,7 @@ if($key->resource->id!=93 && $key->resource->id!=1 && $key->resource->id!=2 && $
   ?>
 <div class="col-sm">
 	<div class="cardCss text-white" style="background-color:#000;">
-  <img  src="time2code/logos/other logo.jpg" alt="Avatar" style="height:100px;width:300px;">
+  <img  src="logos/other logo.jpg" alt="Avatar" style="height:100px;width:300px;">
   <div class="containerCss">
     <p class="h6 text-center" style="border-bottom: 1px solid red;"><strong><?php echo $key->event; ?></strong></p>
     <center>
@@ -19,10 +19,11 @@ if($key->resource->id!=93 && $key->resource->id!=1 && $key->resource->id!=2 && $
     </center>
   <div class="row" style="border-top: 1px solid red;margin-left:12px;margin-right: 12px;">
     <div class="col-sm" >
-    	<p style="float:left;">Start = <?php echo " ".$start_contest_format; ?></p>
+    	<p style="float:left;">Start = <?php require 'start_contest_offset.php'; ?></p>
      </div>
     <div class="col-sm">
-      <p style="float:right;">End = <?php echo " ".$end_contest_format; ?></p>
+      <p style="float:right;">End = <?php         require 'end_contest_offset.php'; 
+ ?></p>
     </div>
 </div>
   <div class="row" style="border-top: 1px solid red;margin-left:12px;margin-right: 12px;">

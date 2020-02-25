@@ -58,20 +58,14 @@ $start_contest_format = $start_contest->format('h:i a d.m.Y');
          echo "converted date and time = ".date("H:i:s", $add_sec)."<br>";
         //if hour is greater than 24 hr. then change in day value format
          $date_store=date("H:i:s", $add_sec);
-         echo $date_store."<br>";
-         //hour check
-          $Hr_check=date("H", $add_sec);
-          echo $Hr_check."<br>";
-         if($Hr_check>24){
-           $Hr_check_change=$Hr_check/24;
-           echo date(d,$start_contest+$Hr_check_change);
-         }
-        else
-           echo "everthing is ok"."<br>";
-           $all_value_print= $start_contest->format('d:m:Y')." ".$date_store;
-           echo $all_value_print;
+         //echo $date_store."<br>";
+         // //hour check
+         //  $Hr_check=date("d:H", $add_sec);
+         //  echo $Hr_check."<br>";
+         $start_contest_format = $start_contest->format('d.m.Y');
+         echo $start_contest_format." ".$date_store;
+        
           ?>
-         
          
      <!---end script code--->
    	<br>

@@ -11,7 +11,7 @@ if($key->resource->id==93){
   ?>
 <div class="col-sm">
 	<div class="cardCss text-white" style="background-color:#000;">
-  <img  src="time2code/logos/atcoder logo.png" alt="Avatar" style="height:100px;width:300px;">
+  <img  src="logos/atcoder logo.png" alt="Avatar" style="height:100px;width:300px;">
   <div class="containerCss">
     <p class="h6 text-center" style="border-bottom: 1px solid red;"><strong><?php echo $key->event; ?></strong></p>
     <center>
