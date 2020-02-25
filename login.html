@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+.row1{
+	margin:50px auto;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 70%;
+  padding: 10px;
+  height: 600px; /* Should be removed. Only for demonstration */
+}
+.column1{
+  float: left;
+  width: 20%;
+  height: 620px;
+  padding: 10px;
+  margin-left: 75px;
+  margin-top:-10px;
+
+  /*emoved. Only for demonstration */
+}
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.ContestBtn {
+  border: none;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 100%;
+  border-radius: 10px;
+}
+.ContestBtn:hover{
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 18px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #449DD1; 
+  border-radius: 18px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #449DD1; 
+  border-radius: 18px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+  border-radius: 18px;
+}
+/* add appropriate colors to fb, twitter and google buttons */
+
+
+/* first sample test----------*/
+.cardCss{
+	margin:12px 12px;
+  box-shadow: 0 4px 8px 0 #0E0E52;
+  transition: 0.3s;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.cardCss:hover {
+  box-shadow: 0 8px 16px 0 #0E0E52;
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.containerCss {
+  padding: 0px 16px;
+}
+</style>
+</head>
+<body style="background-color: #fff">
+
+<div class="row1" >
+	<!------for leftside ------------->
+  <div class="column1" style="background-color:#78C0E0;border-radius: 12px;box-shadow: 2px 2px 12px #78C0E0">
+    <center>
+    <img  src="time2code/logos/time2code logo.png" alt="" style="width:150px;height:150px;border-radius: 50%;">
+    <h3><strong>Time2Code</strong></h3><br>
+    <button class="ContestBtn" style="background-color: #452815">All Contest</button>
+    <br>
+    <button class="ContestBtn" style="background-color: #452815">Codechef</button>
+    <br>
+    <button class="ContestBtn" style="background-color: #fff;color: #185BB8;">Codeforces</button>
+    <br>
+    <button class="ContestBtn" style="background-color:#2B3455">HackerEarth</button>
+    <br>
+    <button class="ContestBtn" style="background-color:#FDA115">LeetCode</button>
+    <br>
+    <button class="ContestBtn" style="background-color:#2B5B96;color:#fff;">spoj</button>
+    <br><br>
+    </center>
+
+    <div>
+    <h6 style="float: left;margin-left: 40px;"><a style="color:black;text-decoration: none;" href="#">About Us</a></h6>
+    <h6 style="float: left;margin-left: 30px;"><a style="color:black;text-decoration: none;" href="#">Contact Us</a></h6>
+    </div>
+  </div>
+  <!------for rightside ------------->
+  <div class="column" style="background-color:#449DD1;overflow-y:scroll;overflow-x: hidden;border-top-right-radius: 12px;border-bottom-right-radius: 12px;box-shadow: 2px 2px 12px #78C0E0">
+<div class="row">
+<!----first sample test--------->
+<div class="col-sm">
+<div class="cardCss text-white" style="background-color:#452815">
+  <img  src="time2code/logos/codechef logo.png" alt="Avatar" style="height:100px;width:300px;">
+  <div class="containerCss">
+    <p class="h6 text-center" style="border-bottom: 1px solid red;"><strong>Febuary Long Challenge</strong></p>
+    <center><a href="codechef.com" class="text-white">codechef.com</a></center>
+  <div class="row" style="border-top: 1px solid red;margin-left:12px;margin-right: 12px;">
+    <div class="col-sm" >
+    	<p>start : 12/02/2020</p>
+     </div>
+    <div class="col-sm">
+      <p>end : 12/02/2020</p>
+    </div>
+</div>
+  <div class="row" style="border-top: 1px solid red;margin-left:12px;margin-right: 12px;">
+  	 <div class="col-sm text-center">
+  	 	Remainder
+  	 </div>
+</div>
+  </div>
+</div>
+</div>
+<!----second sample test--------->
+<div class="col-sm">
+	<div class="cardCss text-white" style="background-color: #2B3455;">
+  <img  src="time2code/logos/HackerEarth logo.jpg" alt="Avatar" style="height:100px;width:300px;">
+  <div class="containerCss">
+    <p class="h6 text-center" style="border-bottom: 1px solid red;"><strong>Febuary Long Challenge</strong></p>
+    <center><a href="codechef.com" class="text-white">codechef.com</a></center>
+  <div class="row" style="border-top: 1px solid red;margin-left:12px;margin-right: 12px;">
+    <div class="col-sm" >
+    	<p>start : 12/02/2020</p>
+     </div>
+    <div class="col-sm">
+      <p>end : 12/02/2020</p>
+    </div>
+</div>
+  <div class="row" style="border-top: 1px solid red;margin-left:12px;margin-right: 12px;">
+  	 <div class="col-sm text-center">
+  	 	Remainder
+  	 </div>
+</div>
+  </div>
+</div>
+</div>
+<!----third sample test--------->
+<div class="col-sm">
+	<div class="cardCss" style="color:#005BB8;background-color: #fff">
+  <img  src="time2code/logos/codeforces logo.png" alt="Avatar" style="height:100px;width:300px;">
+  <div class="containerCss">
+    <p class="h6 text-center" style="border-bottom: 1px solid red;"><strong>Codeforces Educational div-2</strong></p>
+    <center><a href="Codeforces.com">codeforces.com</a></center>
+  <div class="row" style="border-top: 1px solid red;margin-left:12px;margin-right: 12px;">
+    <div class="col-sm" >
+    	<p>start : 02/12/2019</p>
+     </div>
+    <div class="col-sm">
+      <p>end : 20/02/2020</p>
+    </div>
+</div>
+  <div class="row" style="border-top: 1px solid red;margin-left:12px;margin-right: 12px;">
+  	 <div class="col-sm text-center">
+  	 	Remainder
+  	 </div>
+</div>
+  </div>
+</div>
+</div>
+<!----fourth sample test--------->
+<div class="col-sm">
+	<div class="cardCss text-black" style="background-color: #FDA115;">
+  <img  src="time2code/logos/leetcode logo.png" alt="Avatar" style="height:100px;width:300px;">
+  <div class="containerCss">
+    <p class="h6 text-center" style="border-bottom: 1px solid red;"><strong>Codeforces Educational div-2</strong></p>
+    <center><a href="Codeforces.com" class="text-white">codeforces.com</a></center>
+  <div class="row" style="border-top: 1px solid red;margin-left:12px;margin-right: 12px;">
+    <div class="col-sm" >
+    	<p>start : 02/12/2019</p>
+     </div>
+    <div class="col-sm">
+      <p>end : 20/02/2020</p>
+    </div>
+</div>
+  <div class="row" style="border-top: 1px solid red;margin-left:12px;margin-right: 12px;">
+  	 <div class="col-sm text-center">
+  	 	Remainder
+  	 </div>
+</div>
+  </div>
+</div>
+</div>
+
+
+<!----fifth sample test--------->
+<div class="col-sm">
+	<div class="cardCss text-white" style="background-color:#347AB6;">
+  <img  src="time2code/logos/spoj logo.jpg" alt="Avatar" style="height:100px;width:300px;">
+  <div class="containerCss">
+    <p class="h6 text-center" style="border-bottom: 1px solid white;"><strong>Codeforces Educational div-2</strong></p>
+    <center><a href="Codeforces.com" style="color:#F9D367;">codeforces.com</a></center>
+  <div class="row" style="border-top: 1px solid white;margin-left:12px;margin-right: 12px;">
+    <div class="col-sm" >
+    	<p>start : 02/12/2019</p>
+     </div>
+    <div class="col-sm">
+      <p>end : 20/02/2020</p>
+    </div>
+</div>
+  <div class="row" style="border-top: 1px solid white;margin-left:12px;margin-right: 12px;">
+  	 <div class="col-sm text-center">
+  	 	Remainder
+  	 </div>
+</div>
+  </div>
+</div>
+</div>
+<!----sixth sample test--------->
+<div class="col-sm">
+	<div class="cardCss text-black" style="background-color:#8FC643;">
+  <img  src="time2code/logos/topcoder code.png" alt="Avatar" style="height:100px;width:300px;">
+  <div class="containerCss">
+    <p class="h6 text-center" style="border-bottom: 1px solid red;"><strong>Codeforces Educational div-2</strong></p>
+    <center><a href="Codeforces.com" style="color:white;">codeforces.com</a></center>
+  <div class="row" style="border-top: 1px solid red;margin-left:12px;margin-right: 12px;">
+    <div class="col-sm" >
+    	<p>start : 02/12/2019</p>
+     </div>
+    <div class="col-sm">
+      <p>end : 20/02/2020</p>
+    </div>
+</div>
+  <div class="row" style="border-top: 1px solid red;margin-left:12px;margin-right: 12px;">
+  	 <div class="col-sm text-center">
+  	 	Remainder
+  	 </div>
+</div>
+  </div>
+</div>
+</div>
+
+<!----seventh sample test--------->
+<div class="col-sm">
+	<div class="cardCss text-white" style="background-color:#000;">
+  <img  src="time2code/logos/atcoder logo.png" alt="Avatar" style="height:100px;width:300px;">
+  <div class="containerCss">
+    <p class="h6 text-center" style="border-bottom: 1px solid red;"><strong>Codeforces Educational div-2</strong></p>
+    <center><a href="Codeforces.com">codeforces.com</a></center>
+  <div class="row" style="border-top: 1px solid red;margin-left:12px;margin-right: 12px;">
+    <div class="col-sm" >
+    	<p>start : 02/12/2019</p>
+     </div>
+    <div class="col-sm">
+      <p>end : 20/02/2020</p>
+    </div>
+</div>
+  <div class="row" style="border-top: 1px solid red;margin-left:12px;margin-right: 12px;">
+  	 <div class="col-sm text-center">
+  	 	Remainder
+  	 </div>
+</div>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+  	</div>
+  </div>
+
+
+
+
+
+
+
+
+
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
