@@ -2,7 +2,7 @@
     <center>
     <img  src="logos/time2code logo.png" alt="" style="width:100px;height:100px;border-radius: 50%;">
     <h3><strong>Time2Code</strong></h3><br>
-    <form action="main.php" method="post">
+    <form action="index.php" method="post">
     <input type="submit" name="allVar" value="All Contest" class="ContestBtn" style="background-color: #452815" <?php $id=1; ?>>
     <br>
     <input type="submit" name="codeChefVar" value="Codechef" class="ContestBtn" style="background-color: #452815">
@@ -36,7 +36,7 @@ function tz_list() {
 }
 ?>
 <div style="margin-top: -13px;width:100%; overflow:hidden">
-  <form method="post" action="main.php">
+  <form method="post" action="index.php">
   <select class="form-control" style="font-family: 'Courier New', Courier, monospace;width:420px;"  name="zoneVal">
    <!-- <option value="0">Plz,select timezone</option> -->
     <?php foreach(tz_list() as $t) { ?>
